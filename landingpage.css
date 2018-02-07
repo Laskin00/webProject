@@ -1,0 +1,33 @@
+h1{
+  font-size:40pt;
+  color: red;
+  text-align: center;
+}
+
+h2{
+  font-size: 30pt;
+  color: gray;
+  text-align: center;
+}
+
+body {
+  background-image: url("Vodavino.jpg");
+  background-size: 1920px 1080px;
+}
+
+p {
+  font-size: 20pt;
+}
+
+tr {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}

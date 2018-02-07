@@ -1,0 +1,33 @@
+body{
+  background-image:url("Jluch.jpg");
+  background-size: 1920px 1080px;
+}
+
+h1{
+  text-align: center;
+  color: yellow;
+  font-size: 40pt;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+}
+
+p {
+  font-size: 20pt;
+}
+
+tr {
+  color: purple;
+}
+
+a {
+  color: purple;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}

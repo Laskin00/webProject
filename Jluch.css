@@ -1,0 +1,44 @@
+#jluc{
+  background-image:url("Jluch.jpg");
+  background-size: 1920px 1080px;
+}
+#cacao{
+  background-image:url("SoCalledCrew.jpg");
+  background-size: 1920px 1080px;
+}
+#boro{
+  background-image:url("Boro.jpg");
+  background-size: 1920px 1080px;
+}
+#toshiba{
+  background-image:url("Grisho.jpg");
+  background-size: 1920px 1080px;
+}
+h1{
+  text-align: center;
+  color: yellow;
+  font-size: 40pt;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+}
+
+p {
+  font-size: 20pt;
+}
+
+tr {
+  color: purple;
+}
+
+a {
+  color: purple;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
