@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="all.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
+    <script>
+    $(document).ready(function(){
+      var header = $('body');
+
+      var backgrounds = new Array(
+          'url(Jluch.jpg)'
+        , 'url(Boro.jpg)'
+        , 'url(grisho.jpg)'
+        , 'url(SoCalledCrew.jpg)'
+      );
+
+      var sizes = new Array(
+          '100%'
+        , '120%'
+        , '100%'
+        , '120%'
+      )
+
+      var current = 0;
+
+      function nextBackground() {
+          current++;
+          current = current % backgrounds.length;
+          header.css('background-image', backgrounds[current]);
+          header.css('background-size', sizes[current]);
+          $('background-image').fadeIn(300);
+      }
+      setInterval(nextBackground, 3000);
+
+      header.css('background-image', backgrounds[0]);
+      });
+    </script>
+    <title>Bulgarian rap</title>
+  </head>
+  <body>
+    <div id="nav">
+      <script>insertNavbar();</script>
+    </div>
+      <h1 id = "landing_h1">В този сайт ще видите елита на българската рап сецена и текстовете на песните им.</h1>
+  </body>
+</html>
