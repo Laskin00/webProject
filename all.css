@@ -47,42 +47,19 @@ table {
   margin-right:auto;
 }
 
-<<<<<<< HEAD
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #222;
-=======
+#song_txt{
+  margin-top: 5%;
+}
 /*ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
->>>>>>> aba0a35dfe4269bc026d0732ccb75bb8600c8b10
 }
-
 li {
     float: left;
-<<<<<<< HEAD
-}
-
-li a {
-    font-size: 17pt;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 131.3px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: red;
-=======
     padding-left: 5%;
     padding-right: 6%;
 }
-
 li a {
     font-size: 100%;
     display: block;
@@ -93,19 +70,12 @@ li a {
     margin-right: 10%;
     padding-bottom: 5%;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
->>>>>>> aba0a35dfe4269bc026d0732ccb75bb8600c8b10
 }
-
 .active {
     background-color: #4CAF50;
-<<<<<<< HEAD
-}
-=======
 }*/
->>>>>>> aba0a35dfe4269bc026d0732ccb75bb8600c8b10
 
 #landing_h1{
       font-size: 40pt;
@@ -132,8 +102,6 @@ li a:hover:not(.active) {
   font-size: 20pt;
   color: #cc0000;
 }
-<<<<<<< HEAD
-=======
 
 #textarea{
   text-align: center;
@@ -237,4 +205,3 @@ li a {
 .nav_li a {
   padding-bottom: 10%;
 }
->>>>>>> aba0a35dfe4269bc026d0732ccb75bb8600c8b10
