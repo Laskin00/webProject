@@ -18,6 +18,21 @@
   background-image:url("Grigovor.jpg");
   background-size: 100%;
 }
+.GrigovorP,.BOROP{
+  color: white;
+}
+
+.GrigovorP:hover,.BOROP:hover{
+  color:purple;
+}
+
+/* .BOROP{
+  color: white;
+}
+
+.BOROP:hover{
+  color:purple;
+} */
 h1{
   text-align: center;
   color: yellow;
