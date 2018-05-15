@@ -1,60 +1,69 @@
-#landing{
-  background-image: url("VodaVino.jpg");
-  background-size: 100%;
+@font-face {
+  font-family: 'RC'
+  src: url('RC.otf') format('truetype');
 }
-#jluc{
-  background-image:url("Jluch.jpg");
-  background-size: 100%;
-}
-#cacao{
-  background-image:url("SoCalledCrew.jpg");
-  background-size: 120%;
-}
-#boro{
-  background-image:url("Boro.jpg");
-  background-size: 120%;
-}
-#toshiba{
-  background-image:url("Grigovor.jpg");
-  background-size: 100%;
-}
-.GrigovorP,.BOROP{
-  color: white;
+.table-text{
+	color: white;
+	text-align: center;
+	font-family: RC
 }
 
-.GrigovorP:hover,.BOROP:hover{
+body{
+	background-repeat: no-repeat;
+  background-color: black;
+	transition: all 0.5s ease-out;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.table-photo{
+	height:300px;
+	filter: grayscale(100%);
+	transition: all 0.5s ease;
+	border-radius: 5%;
+}
+
+.table-photo:hover{
+	filter:grayscale(0%);
+	border-radius: 10%;
+}
+
+.BOROP{
+  color: red;
+  align: left;
+  font-size: 200%;
+}
+.GP{
+  color: blue;
+  align: left;
+  font-size: 200%;
+}
+.GP:hover{
+  color: rgb(200,200,100);
+  font-size: 250%;
+}
+.grp{
+  color: red;
+  align: left;
+  font-size: 200%;
+}
+.grp:hover{
   color:purple;
+  font-size: 250%;
 }
-
-/* .BOROP{
-  color: white;
-}
-
 .BOROP:hover{
-  color:purple;
-} */
+  color:white;
+  font-size: 250%;
+}
+
 h1{
   text-align: center;
-  color: yellow;
+  color: rgb(255,0,0);
   font-size: 40pt;
-}
-
-h2{
-  text-align: center;
-  color: white;
-  font-size: 30pt;
 }
 
 p {
   font-size: 20pt;
-}
-
-tr {
-  color: purple;
-}
-
-a {
-  color: purple;
 }
 
 table {
@@ -62,82 +71,10 @@ table {
   margin-right:auto;
 }
 
-#song_txt{
-  margin-top: 5%;
-}
-/*ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-}
-li {
-    float: left;
-    padding-left: 5%;
-    padding-right: 6%;
-}
-li a {
-    font-size: 100%;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 5%;
-}
-li a:hover:not(.active) {
-    background-color: #111;
-}
-.active {
-    background-color: #4CAF50;
-}*/
-
-#landing_h1{
-      font-size: 40pt;
-      color:  #99ffff;
-}
-
-#So_h1{
-  font-size: 40pt;
-  color: #00ccff;
-}
-
-#So_h2{
-  font-size: 30pt;
-  color: #ffff00;
-}
-
-#So_a{
-  font-size: 20pt;
-  color: #00ccff;
-  text-align: center;
-}
-
-#J_a{
-  font-size: 20pt;
-  color: #cc0000;
-}
-
-#textarea{
-  text-align: center;
-}
-
-textarea{
-  resize: none;
-  width: 35%;
-  height: 600px;
-}
-
-p{
-  color: red;
-  size:120pt;
-}
-
 #navbar_li {
     font-family: "Lato";
 }
 
-/* Change the link color to #111 (black) on hover */
 #navbar_li a:hover {
     background-color: #111;
     color: white;
@@ -153,23 +90,36 @@ p{
 .nav a{
     display:inline-block;
 }
-/*.nav li{
-  font-size: 13pt;
-  padding: 9px 0;
-  display: inline-block;
-}*/
+
 
 a{
   color: white;
   text-decoration: none;
 }
 
+#centered{
+  text-align: center;
+  align-items: center;
+  color: blue;
+  font-size: 250%;
+}
+
+#centered_red{
+  text-align: center;
+  align-items: center;
+  color: red;
+  font-size: 250%;
+}
 li a:hover{
   text-decoration: none;
   color: white;
   background-color: #111;
 }
-
+.table-text:hover{
+  text-decoration: none;
+  color: purple;
+  font-size: 350%;
+}
 li{
   font-size: 13pt;
   padding: 9px 0;
@@ -182,7 +132,6 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /*position: fixed;*/
     width: 100%;
 }
 .home {
@@ -193,7 +142,6 @@ ul{
     padding: 0 5px;
     font-size: 20px;
     text-shadow: 2px 2px black;
-    /*padding: 15px 20px;*/
     font-family: "Lato";
     color: #e0e0e0;
 }
@@ -210,9 +158,9 @@ li a {
     background-color: #111;
 }
 
-*{
+/* *{
   box-sizing: border-box;
-}
+} */
 
 .nav_li{
   margin-left: 10%;

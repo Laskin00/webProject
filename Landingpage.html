@@ -4,45 +4,47 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="all.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="navbar.js"></script>
-    <script>
-    $(document).ready(function(){
-      var header = $('body');
-
-      var backgrounds = new Array(
-          'url(Jluch.jpg)'
-        , 'url(Boro.jpg)'
-        , 'url(Grigovor.jpg)'
-        , 'url(SoCalledCrew.jpg)'
-      );
-
-      var sizes = new Array(
-          '100%'
-        , '120%'
-        , '100%'
-        , '120%'
-      )
-
-      var current = 0;
-
-      function nextBackground() {
-          current++;
-          current = current % backgrounds.length;
-          header.css('background-image', backgrounds[current]);
-          header.css('background-size', sizes[current]);
-          $('background-image').fadeIn(300);
-      }
-      setInterval(nextBackground, 3000);
-
-      header.css('background-image', backgrounds[0]);
-      });
-    </script>
+    <script type = "text/javascript" src="javascripts.js"></script>
     <title>Bulgarian rap</title>
+
   </head>
-  <body>
+  <body style="background-size: 100% 89%; background-image : url('1.jpg');"; onload = "ChangePicture();">
+    <div style="" class="fade"></div>
+    <div style="height:100%" class="background"></div>
+
     <div id="nav">
       <script>insertNavbar();</script>
     </div>
-      <h1 id = "landing_h1"></h1>
+
+    <table style="margin-top: 10%;" cellspacing="40">
+    <tr>
+      <td>
+        <a href="Jluch.html">
+        <img src="jluch.png" class="table-photo">
+        <h1 class="table-text">Жлъч</h1>
+        </a>
+      </td>
+      <td>
+        <a href="SoCalledCrew.html">
+        <img src="scc.png" class="table-photo">
+        <h1 class="table-text">So Called Crew</h1>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="Boro.html">
+        <img src="boro.png" class="table-photo">
+        <h1 class="table-text">Боро Първи</h1>
+        </a>
+      </td>
+      <td>
+        <a href="Grigovor.html">
+        <img src="grigovor.png" class="table-photo">
+        <h1 class="table-text">Григовор</h1>
+        </a>
+      </td>
+    </tr>
+    </table>
   </body>
 </html>

@@ -3,24 +3,23 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="all.css">
-    <script type="text/javascript" src="navbar.js"></script>
+      <script type = "text/javascript" src="javascripts.js"></script>
     <title>Жлъч</title>
   </head>
-  <body id="jluc">
+  <body style="background-size: 100% 89%; background-image : url('3.jpg');">
     <div id="nav">
       <script>insertNavbar();</script>
     </div>
     <h1>Матьо Стоянов (Жлъч)</h1>
-    <div id = "textarea">
-      <textarea readonly id = "song_txt">
-        Текстът ще се появи тук след като натиснете името на песента.
-      </textarea>
+    <div id = "centered">
+      <iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
+      <p id = "lyrics"></p>
     </div>
 
-    <p class = "BOROP" align = "center" onclick = "location.href = 'Nemilost.html';">Жлъч/Гена - Немилост</p>
-    <p class = "BOROP" align = "center" onclick = "location.href = 'Ujen.html';">Жлъч/Гена - Южен Полъх</p>
-    <p class = "BOROP" align = "center" onclick = "location.href = 'Protivotejest.html';">Жлъч/Гена - Противотежест</p>
-    <p class = "BOROP" align = "center" onclick = "location.href = 'Idva.html';">Жлъч/Гена - Идва</p>
-    <p class = "BOROP" align = "center" onclick = "location.href = 'Iutree.html';">Жлъч/Гена - И утре е ден</p>
+    <p  class = "BOROP"  onclick = "ChangeLyrics(1, 1);">Жлъч/Гена - Немилост</p>
+    <p  class = "BOROP"  onclick = "ChangeLyrics(1, 2);">Жлъч/Гена - Южен Полъх</p>
+    <p  class = "BOROP"  onclick = "ChangeLyrics(1, 3);">Жлъч/Гена - Противотежест</p>
+    <p class = "BOROP"  onclick = "ChangeLyrics(1, 4);">Жлъч/Гена - Идва</p>
+    <p  class = "BOROP" onclick = "ChangeLyrics(1, 5);">Жлъч/Гена - И утре е ден</p>
   </body>
 </html>

@@ -3,26 +3,23 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="all.css">
-    <script type="text/javascript" src="navbar.js"></script>
+      <script type = "text/javascript" src="javascripts.js"></script>
     <title>Сокол крю</title>
   </head>
-  <body id="cacao">
+  <body style="background-size: 100% 89%; background-image : url('4.jpg');">
     <div id="nav">
       <script>insertNavbar();</script>
     </div>
-    <br></br>
-    <br></br>
-    </table>
-    <div id = "textarea">
-      <textarea readonly id ="song_txt">
-        Текстът ще се появи тук след като натиснете името на песента.
-      </textarea>
+    <h1>SoCalledCrew</h1>
+    <div id = "centered_red">
+      <iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
+      <p id = "lyrics"></p>
     </div>
 
-      <p class = "BOROP" align = "center" onclick = "location.href = 'Nedej.html';">SoCalledCrew - Недей</p>
-      <p class = "BOROP" align = "center" onclick = "location.href = 'Shepa.html';">SoCalledCrew - Шепа Пепел</p>
-      <p class = "BOROP" align = "center" onclick = "location.href = 'Otvun.html';">SoCalledCrew - Отвън</p>
-      <p class = "BOROP" align = "center" onclick = "location.href = 'KakavoNiIma.html';">SoCalledCrew - Какво ни има</p>
-      <p class = "BOROP" align = "center" onclick = "location.href = 'Jajda.html';">SoCalledCrew - Жажда</p>
+      <p class = "BOROP"    onclick = "ChangeLyrics(2, 1);">SoCalledCrew - Недей</p>
+      <p class = "BOROP"  onclick = "ChangeLyrics(2, 2);">SoCalledCrew - Шепа Пепел</p>
+      <p  class = "BOROP"  onclick = "ChangeLyrics(2, 3);">SoCalledCrew - Отвън</p>
+      <p  class = "BOROP"  onclick = "ChangeLyrics(2, 4);">SoCalledCrew - Какво ни има</p>
+      <p  class = "BOROP"  onclick = "ChangeLyrics(2, 5);">SoCalledCrew - Жажда</p>
   </body>
 </html>

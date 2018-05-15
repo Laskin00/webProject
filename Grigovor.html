@@ -3,25 +3,24 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="all.css">
-    <script type="text/javascript" src="navbar.js"></script>
+    <script type = "text/javascript" src="javascripts.js"></script>
     <title>Grigovor</title>
   </head>
-  <body id="toshiba">
+  <body style="background-size: 100% 89%; background-image : url('2.jpg');">
     <div id="nav">
       <script>insertNavbar();</script>
     </div>
     <h1>Илия Григоров(Григовор)</h1>
-    <div id = "textarea">
-      <textarea readonly id = "song_txt">
-          Текстът ще се появи тук след като натиснете името на песента.
-      </textarea>
+    <div id = "centered_red">
+      <iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
+      <p id = "lyrics"></p>
     </div>
 
-    <p class = "GrigovorP" align = "center" onclick = "location.href = 'TLDR.html';">Григовор/Гена - TLDR;</p>
-    <p class = "GrigovorP" align = "center" onclick = "location.href = 'Vinata.html';">Григовор/Гена - Вината е наша</p>
-    <p class = "GrigovorP" align = "center" onclick = "location.href = 'Ekzistencialna.html';">Григовор/Гена - Екзистенциална криза</p>
-    <p class = "GrigovorP" align = "center" onclick = "location.href = 'NaEdinDuh.html';">Григовор/Гена - На един дъх</p>
-    <p class = "GrigovorP" align = "center" onclick = "location.href = 'Falstart.html';">Григовор/Гена - Фалстарт</p>
+    <p class = "grp" onclick = "ChangeLyrics(4, 1);">Григовор/Гена - TLDR;</p>
+    <p class = "grp"  onclick = "ChangeLyrics(4, 2);">Григовор/Гена - Вината е наша</p>
+    <p class = "grp"  onclick = "ChangeLyrics(4, 3);">Григовор/Гена - Екзистенциална криза</p>
+    <p class = "grp"  onclick = "ChangeLyrics(4, 4);">Григовор/Гена - На един дъх</p>
+    <p class = "grp"  onclick = "ChangeLyrics(4, 5);">Григовор/Гена - Фалстарт</p>
 
 
   </body>
